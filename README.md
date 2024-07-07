@@ -2,6 +2,13 @@
 
 ## Installation
 
+Dependencies:
+```
+pip install python3-dtls    (v1.3.0)
+pip install pyOpenSSL       (v22.0.0 and v24.1.0)
+pip install Flask           (v3.0.3)
+```
+
 1. Run the script `install/generateCerts.sh` to generate the necessary certificates and store in `install/cert/` directory for backup. The script will copy the necessary files for the respective directories in Proxy and Stub Applications.
 
 2. Copy the following files from `install/cert/` to FREE Project `FREE_WEB/free/videoConfig/Certificates` (create folder if needed), so that FREE can generate the certificates and communicate to Proxy the expected public key:
