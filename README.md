@@ -2,7 +2,7 @@
 
 ## Installation
 
-1. Run the script `install/generateCerts.sh` to generate the necessary certificates. In `install/cert/` all the certificates will be stored as backup. The script will copy the necessary files for the respective directories in Proxy and Stub Applications.
+1. Run the script `install/generateCerts.sh` to generate the necessary certificates and store in `install/cert/` directory for backup. The script will copy the necessary files for the respective directories in Proxy and Stub Applications.
 
 2. Copy the following files from `install/cert/` to FREE Project `FREE_WEB/free/videoConfig/Certificates` (create folder if needed), so that FREE can generate the certificates and communicate to Proxy the expected public key:
 ```
